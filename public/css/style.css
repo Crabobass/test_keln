@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    min-width: 600px;
+    margin-bottom: 50px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.guest {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.guest:last-child {
+    border: 0;
+}
